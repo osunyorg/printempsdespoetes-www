@@ -9,7 +9,7 @@ params:
     active: true
   logo:
     header: '/assets/images/logo.svg'
-    footer: '/assets/images/logo.svg'
+    footer: '/assets/images/logo-white.svg'
   home:
     head:
       title: site
