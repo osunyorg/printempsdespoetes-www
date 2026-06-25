@@ -1,8 +1,14 @@
+header#document-header
+    .primary-menu
+        @include media-breakpoint-down(desktop)
+            padding-top: var(--grid-gutter)
+            padding-bottom: var(--grid-gutter)
 .page__home
     .hero
         display: none
-    @include media-breakpoint-up(desktop)
-        .document-content
+    .document-content
+        margin-top: space(18)
+        @include media-breakpoint-up(desktop)
             margin-top: space(34)
 .hero
     .content
@@ -15,3 +21,8 @@
                 .hero-actions
                     .dropdown-share
                         position: relative
+.project
+    .project-content
+        .project-title,
+        .project-subtitle
+            text-transform: uppercase
