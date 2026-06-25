@@ -1,0 +1,19 @@
+.page__home
+    .hero
+        display: none
+    @include media-breakpoint-up(desktop)
+        .document-content
+            > .blocks
+                .block:first-child
+                    margin-top: 0
+.hero
+    .content
+        padding-top: 0
+        .hero-text
+            @include media-breakpoint-up(desktop)
+                margin-top: 0
+                padding-bottom: 0
+                justify-content: end
+                .hero-actions
+                    .dropdown-share
+                        position: relative
