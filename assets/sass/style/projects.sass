@@ -1,0 +1,18 @@
+.project
+    .project-content
+        .project-title,
+        .project-subtitle
+            text-transform: uppercase
+.projects
+    &--large
+        .project
+            @include in-page-without-sidebar
+                align-items: center
+.projects__page
+    .hero
+        .content
+            .hero-text
+                @include media-breakpoint-up(desktop)
+                    justify-content: center
+                .projects-meta
+                    display: none

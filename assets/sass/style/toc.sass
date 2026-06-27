@@ -1,0 +1,13 @@
+.toc-container
+    @include media-breakpoint-up(desktop)
+        .toc-title
+            display: none
+    .toc
+        ol
+            li
+                a
+                    @include meta
+                    &.active
+                        &::before
+                            content: '↘ '
+                            font-variant-alternates: ornaments
