@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2026-06-25T16:38:11+02:00
-lastmod: 2026-06-30T10:33:21+02:00
+lastmod: 2026-06-30T10:34:24+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-06-25T16:38:11+02:00
-    updated_at: 2026-06-30T10:33:21+02:00
+    updated_at: 2026-06-30T10:34:24+02:00
     published_at: 2026-06-25T16:38:11+02:00
 search:
   id: "9622b982-1ac1-44dc-bb54-5adfd5c5c85b"
@@ -31,7 +31,7 @@ search:
     Accueil
 
   body: >-
-    <p>En ce moment... </p>
+    <p>En ce moment... </p>  <p> Actualités </p>
 
 breadcrumbs:
   - title: >-
@@ -130,9 +130,11 @@ contents:
         value: >-
           En ce moment...
         heading: 2
+        link: "/projets/"
 
     data:
-      mode: selection
+      mode: all
+      all: true
       layout: list
       options:
         categories: true
@@ -140,36 +142,6 @@ contents:
         subtitle: true
         summary: true
         year: false
-
-      projects:
-        - permalink: "/projets/2026-bruler/"
-          path: "/projects/2026/bruler"
-          slug: "bruler"
-          file: "content/fr/projects/2026/bruler.html"
-          name: >-
-            Brûler
-
-      quantity: 1
-
-  - kind: block
-    template: projects
-
-
-    ranks:
-      base: 2
-      children: 2
-    top:
-      active: false
-
-    data:
-      mode: all
-      layout: grid
-      options:
-        categories: true
-        image: true
-        subtitle: true
-        summary: false
-        year: true
 
       projects:
         - permalink: "/projets/2026-bruler/"
@@ -192,6 +164,54 @@ contents:
             Liberté. Force vive, déployée
 
       quantity: 3
+
+  - kind: block
+    template: posts
+    title: >-
+      Actualités
+    slug: >-
+      actualites
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Actualités
+        heading: 2
+        link: "/actualites/"
+
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        author: false
+        categories: false
+        date: true
+        image: true
+        reading_time: false
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/actualites/2026-06-30-ateliers-decriture/"
+          path: "/posts/2026/2026-06-30-ateliers-decriture"
+          slug: "ateliers-decriture"
+          file: "content/fr/posts/2026/2026-06-30-ateliers-decriture.html"
+          name: >-
+            Ateliers d'écriture
+        - permalink: "/actualites/2026-06-30-les-plus-beaux-poemes-de-notre-enfance/"
+          path: "/posts/2026/2026-06-30-les-plus-beaux-poemes-de-notre-enfance"
+          slug: "les-plus-beaux-poemes-de-notre-enfance"
+          file: "content/fr/posts/2026/2026-06-30-les-plus-beaux-poemes-de-notre-enfance.html"
+          name: >-
+            Les plus beaux poèmes de notre enfance
+
+      quantity: 2
+
 
 
 ---
