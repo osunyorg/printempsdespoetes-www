@@ -1,4 +1,4 @@
-theme: osuny
+theme: printempsdespoetes-theme
 _merge: deep
 params:
   breadcrumb:
