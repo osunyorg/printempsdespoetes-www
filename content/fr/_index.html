@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2026-06-25T16:38:11+02:00
-lastmod: 2026-06-25T18:13:37+02:00
+lastmod: 2026-06-30T10:33:21+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-06-25T16:38:11+02:00
-    updated_at: 2026-06-25T18:13:37+02:00
+    updated_at: 2026-06-30T10:33:21+02:00
     published_at: 2026-06-25T16:38:11+02:00
 search:
   id: "9622b982-1ac1-44dc-bb54-5adfd5c5c85b"
@@ -30,7 +30,8 @@ search:
   title: >-
     Accueil
 
-
+  body: >-
+    <p>En ce moment... </p>
 
 breadcrumbs:
   - title: >-
@@ -79,7 +80,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 1
   text: >-
     moins d'une minute
 contents:
@@ -112,6 +113,85 @@ contents:
             Liberté. Force vive, déployée
 
       quantity: 1
+
+  - kind: block
+    template: projects
+    title: >-
+      En ce moment...
+    slug: >-
+      en-ce-moment
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          En ce moment...
+        heading: 2
+
+    data:
+      mode: selection
+      layout: list
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: false
+
+      projects:
+        - permalink: "/projets/2026-bruler/"
+          path: "/projects/2026/bruler"
+          slug: "bruler"
+          file: "content/fr/projects/2026/bruler.html"
+          name: >-
+            Brûler
+
+      quantity: 1
+
+  - kind: block
+    template: projects
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      mode: all
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+
+      projects:
+        - permalink: "/projets/2026-bruler/"
+          path: "/projects/2026/bruler"
+          slug: "bruler"
+          file: "content/fr/projects/2026/bruler.html"
+          name: >-
+            Brûler
+        - permalink: "/projets/2026-la-liberte/"
+          path: "/projects/2026/la-liberte"
+          slug: "la-liberte"
+          file: "content/fr/projects/2026/la-liberte.html"
+          name: >-
+            La liberté
+        - permalink: "/projets/2026-liberte-force-vive-deployee/"
+          path: "/projects/2026/liberte-force-vive-deployee"
+          slug: "liberte-force-vive-deployee"
+          file: "content/fr/projects/2026/liberte-force-vive-deployee.html"
+          name: >-
+            Liberté. Force vive, déployée
+
+      quantity: 3
 
 
 ---
