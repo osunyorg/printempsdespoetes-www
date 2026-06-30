@@ -10,6 +10,15 @@ items:
   descendants_targets: []
   path: "/pages/devenez-mecene"
   file: content/fr/pages/devenez-mecene/_index.html
+- title: Contact
+  slug: contact
+  target: "/contact/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/contact"
+  file: content/fr/pages/contact/_index.html
 - title: Mentions légales
   slug: mentions-legales
   target: "/mentions-legales/"

@@ -9,6 +9,37 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            Printemps.des.Poetes.Coordination.France
+          value: >-
+            https://www.facebook.com/Printemps.des.Poetes.Coordination.France
+        instagram:
+          label: >-
+            printempsdespoetes
+          value: >-
+            https://instagram.com/printempsdespoetes
+        linkedin:
+          label: >-
+            le-printemps-des-po-tes
+          value: >-
+            https://www.linkedin.com/company/le-printemps-des-po-tes/
+        tiktok:
+          label: >-
+            printempsdespoetes
+          value: >-
+            https://www.tiktok.com/@printempsdespoetes
+        x:
+          label: >-
+            P_D_Poetes
+          value: >-
+            https://x.com/P_D_Poetes
+        youtube:
+          label: >-
+            channelUCW2qokP3GGSQDZXVPgdZMxw
+          value: >-
+            https://www.youtube.com/@channelUCW2qokP3GGSQDZXVPgdZMxw
 
   taxonomies:
     administrator: administrators
