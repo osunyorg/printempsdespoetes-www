@@ -2,3 +2,12 @@ header#document-header
     .nav-ecosystem
         li:first-child
             @include ecosystem-active-item
+.projects__page
+    // bredcrumb under hero image
+    @include media-breakpoint-up(desktop)
+        .breadcrumb-container
+            margin-bottom: $spacing-6
+            .breadcrumb-nav
+                padding-left: offset(4)
+            .breadcrumb
+                height: unset
