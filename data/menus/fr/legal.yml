@@ -3,11 +3,13 @@ title: Informations légales
 items:
 - title: Devenez mécène
   slug: devenez-mecene
-  target: url
-  kind: url
+  target: "/devenez-mecene/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
+  path: "/pages/devenez-mecene"
+  file: content/fr/pages/devenez-mecene/_index.html
 - title: Mentions légales
   slug: mentions-legales
   target: "/mentions-legales/"
