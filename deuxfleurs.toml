@@ -15,6 +15,14 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/actualites/2026-06-30-les-plus-beaux-poemes-de-notre-enfance/index.html"
+to = "/actualites/2025-09-10-les-plus-beaux-poemes-de-notre-enfance/"
+
+[[redirects]]
+from = "/actualites/2026-06-30-ateliers-decriture/index.html"
+to = "/actualites/2025-10-13-ateliers-decriture/"
+
+[[redirects]]
 from = "/projets/2026-la-liberte-force-vive-deployee/index.html"
 to = "/projets/2026-liberte-force-vive-deployee/"
 
