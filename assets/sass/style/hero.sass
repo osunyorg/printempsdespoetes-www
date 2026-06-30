@@ -5,11 +5,9 @@ header#document-header
             padding-bottom: var(--grid-gutter)
 .page__home
     .hero
-        display: none
+        @include sr-only
     .document-content
-        margin-top: space(18)
-        @include media-breakpoint-up(desktop)
-            margin-top: space(34)
+        margin-top: var(--header-height)
 .hero
     .content
         padding-top: 0
