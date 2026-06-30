@@ -1,40 +1,18 @@
 ---
 title: Menu principal
 items:
-- title: Actualités
-  slug: actualites
-  target: "/actualites/"
-  kind: page
+- title: Édition 2026
+  slug: edition-2026
+  target: "/projets/2026-liberte-force-vive-deployee/"
+  kind: url
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
-- title: Personnes
-  slug: personnes
-  target: "/personnes/"
-  kind: page
+- title: Prix Andrée Chedid
+  slug: prix-andree-chedid
+  target: "/projets/prix-andree-chedid/"
+  kind: url
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
-- title: Organisations
-  slug: organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
-- title: Projets
-  slug: projets
-  target: "/projets/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
 
