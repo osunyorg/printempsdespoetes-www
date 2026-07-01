@@ -7,10 +7,11 @@ header#document-header
     .hero
         @include sr-only
     .document-content
-        margin-top: var(--header-height)
+        margin-top: calc(var(--header-height) + #{space(8)})
+
 .hero
     .content
-        padding-top: 0
+        padding-top: space(8)
         .hero-text
             @include media-breakpoint-up(desktop)
                 margin-top: 0
