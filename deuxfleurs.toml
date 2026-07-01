@@ -23,6 +23,10 @@ from = "/actualites/2026-06-30-ateliers-decriture/index.html"
 to = "/actualites/2025-10-13-ateliers-decriture/"
 
 [[redirects]]
+from = "/projets/2026-grand-prix-francophone-de-la-poesie/index.html"
+to = "/projets/2026-grand-prix-francophone/"
+
+[[redirects]]
 from = "/projets/2026-la-liberte-force-vive-deployee/index.html"
 to = "/projets/2026-liberte-force-vive-deployee/"
 
