@@ -5,9 +5,10 @@ header#document-header
             padding-bottom: var(--grid-gutter)
 .page__home
     .hero
-        @include sr-only
-    .document-content
-        margin-top: calc(var(--header-height) + #{space(8)})
+        .container
+            @include sr-only
+    // .document-content
+    //     margin-top: calc(var(--header-height) + #{space(8)})
 
 .hero
     .content
