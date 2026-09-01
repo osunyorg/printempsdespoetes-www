@@ -30,3 +30,7 @@ to = "/projets/2026-grand-prix-francophone/"
 from = "/projets/2026-la-liberte-force-vive-deployee/index.html"
 to = "/projets/2026-liberte-force-vive-deployee/"
 
+[[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/printemps-des-poetes-dossier-de-pressepdf/"
+
